@@ -56,4 +56,4 @@ foreach($_GET['id'] as $id) {
     }
 }
 
-echo 'Done! Channel : @DaieTeam';
+echo 'Done!';
