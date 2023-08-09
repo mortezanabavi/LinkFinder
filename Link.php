@@ -1,4 +1,5 @@
 <?php
+
 error_reporting(0);
 
 
@@ -50,7 +51,7 @@ foreach($_GET['id'] as $id) {
         if (!in_array($hash,$Link['Hash'])) {
             if (trim($Hash->check($hash)) == 'Group') {
                 $Link['Hash'][] = $hash;
-				file_put_contents('Link.json',json_encode($Link));
+		file_put_contents('Link.json',json_encode($Link));
             }
         }
     }
