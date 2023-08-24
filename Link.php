@@ -8,7 +8,7 @@ if (!file_exists('Link.json')) {
 }
 
 if(!isset($_GET['id'])) {
-	$_GET['id'] = ['Mylinkgp','linkdony_links_Linkestan_linkk','linksarayiirani','Urmiya_link','linkestanARYAEI','linkestan_0','Kurdistan_linkdonii','linkdonikurdiiii','linkdoni_kade','linkdooni_yasi','linkdoni7703','linkdonie00','grouhkadeh','linkdoni','linkdoni1','LinkGp','Link4you','gorohkadetel','linkshomalia','Gay_Link0s'];
+	$_GET['id'] = ['Mylinkgp','linkdony_links_Linkestan_linkk','linksarayiirani','Urmiya_link','linkestanARYAEI','linkestan_0','Kurdistan_linkdonii','linkdonikurdiiii','linkdoni_kade','linkdooni_yasi','linkdoni7703','linkdonie00','grouhkadeh','linkdoni','linkdoni1','LinkGp','Link4you','gorohkadetel','linkshomalia'];
 }
 else {
 	$_GET['id'] = explode(',',$_GET['id']);
